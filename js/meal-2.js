@@ -19,8 +19,6 @@ const displayData = (meals) => {
             <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${meal.strMeal}</h5>
-                <p class="card-text"><span class ="h5 fw-bold">Recipe:</span>
-                 ${meal.strInstructions}</p>
                 <!-- Button trigger modal -->
                 <button onclick= "loadMealDetails(${meal.idMeal})" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#mealDetails">Details</button>
             </div>
