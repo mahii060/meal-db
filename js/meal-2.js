@@ -42,7 +42,6 @@ const loadMealDetails = async (idMeal) => {
     displayMealDetails(data.meals[0])
 }
 const displayMealDetails = (meal) => {
-    // console.log(meal)
     document.getElementById('mealDetailsLabel').innerText = meal.strMeal;
     const mealDetailsBody = document.getElementById('meal-details-body');
     mealDetailsBody.innerHTML = `
